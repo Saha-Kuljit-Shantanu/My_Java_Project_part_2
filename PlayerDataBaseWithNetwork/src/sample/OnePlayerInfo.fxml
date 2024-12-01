@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #450e3a;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OnePlayerInfoController">
+   <children>
+      <Button fx:id="previousButton" layoutX="335.0" layoutY="329.0" mnemonicParsing="false" onAction="#previousButtonAction" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: #47c1c9;" text="Return to Previous page" />
+      <Label layoutX="74.0" layoutY="102.0" prefHeight="17.0" prefWidth="75.0" text="Name            :">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#eb8e8e" />
+                  <Stop color="#45c481" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label layoutX="74.0" layoutY="131.0" prefHeight="17.0" prefWidth="75.0" text="Country         :">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#eb8e8e" />
+                  <Stop color="#45c481" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label layoutX="74.0" layoutY="189.0" prefHeight="17.0" prefWidth="75.0" text="Height           :">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#eb8e8e" />
+                  <Stop color="#45c481" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label layoutX="74.0" layoutY="219.0" prefHeight="17.0" prefWidth="75.0" text="Club name    :">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#eb8e8e" />
+                  <Stop color="#45c481" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label layoutX="74.0" layoutY="249.0" prefHeight="17.0" prefWidth="75.0" text="Position        :">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#eb8e8e" />
+                  <Stop color="#45c481" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label layoutX="74.0" layoutY="279.0" prefHeight="17.0" prefWidth="75.0" text="Number        :">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#eb8e8e" />
+                  <Stop color="#45c481" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label layoutX="74.0" layoutY="159.0" prefHeight="17.0" prefWidth="75.0" text="Age               :">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#eb8e8e" />
+                  <Stop color="#45c481" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label layoutX="74.0" layoutY="307.0" prefHeight="17.0" prefWidth="75.0" text="Salary           :">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#eb8e8e" />
+                  <Stop color="#45c481" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label fx:id="namefield" layoutX="166.0" layoutY="98.0" prefHeight="17.0" prefWidth="200.0" textFill="#3baaad">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="countryfield" layoutX="166.0" layoutY="127.0" prefHeight="17.0" prefWidth="200.0" textFill="#3baaad">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="agefield" layoutX="166.0" layoutY="155.0" prefHeight="17.0" prefWidth="200.0" textFill="#3baaad">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="heightfield" layoutX="166.0" layoutY="185.0" prefHeight="17.0" prefWidth="200.0" textFill="#3baaad">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="clubfield" layoutX="166.0" layoutY="215.0" prefHeight="17.0" prefWidth="200.0" textFill="#3baaad">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="posfield" layoutX="166.0" layoutY="245.0" prefHeight="17.0" prefWidth="200.0" textFill="#3baaad">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="numberfield" layoutX="166.0" layoutY="275.0" prefHeight="17.0" prefWidth="200.0" textFill="#3baaad">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="salaryfield" layoutX="166.0" layoutY="303.0" prefHeight="17.0" prefWidth="200.0" textFill="#3baaad">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Button fx:id="backButton" layoutX="335.0" layoutY="361.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: #47c1c9;" text="Return to Main Menu" />
+      <Label layoutX="184.0" layoutY="35.0" prefHeight="40.0" prefWidth="232.0" text="Player Information" textFill="#1969e8">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

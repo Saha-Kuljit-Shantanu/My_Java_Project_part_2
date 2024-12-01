@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #450e3a;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.buyPlayerController">
+   <children>
+      <Label layoutX="177.0" layoutY="106.0" prefHeight="28.0" prefWidth="235.0" text="List Of Buyable Players" textFill="#1969e8">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Label>
+      <ListView fx:id="BuyableList" layoutX="47.0" layoutY="151.0" onMouseClicked="#mouseClickAction" prefHeight="148.0" prefWidth="495.0" />
+      <Button fx:id="viewDetail" layoutX="47.0" layoutY="354.0" mnemonicParsing="false" onAction="#viewDetailAction" prefHeight="25.0" prefWidth="162.0" style="-fx-background-color: #47c1c9;" text="View details of this player" />
+      <Button fx:id="backButton" layoutX="350.0" layoutY="354.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="25.0" prefWidth="193.0" style="-fx-background-color: #47c1c9;" text="Return to  main menu" />
+      <Button fx:id="buyButton" layoutX="215.0" layoutY="354.0" mnemonicParsing="false" onAction="#buyAction" prefHeight="25.0" prefWidth="130.0" style="-fx-background-color: #47c1c9;" text="Buy this player" />
+      <Label fx:id="errorLabel" layoutX="47.0" layoutY="313.0" prefHeight="25.0" prefWidth="495.0" textFill="#e80000">
+         <font>
+            <Font name="Comic Sans MS" size="16.0" />
+         </font></Label>
+      <Label fx:id="Welcome" layoutX="50.0" layoutY="14.0" prefHeight="74.0" prefWidth="495.0" textFill="#1969e8">
+         <font>
+            <Font name="Comic Sans MS" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

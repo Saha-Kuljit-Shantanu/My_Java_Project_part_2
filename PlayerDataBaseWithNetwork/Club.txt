@@ -1,0 +1,5 @@
+Manchester United,Lion,200000.0,false
+Manchester City,Tiger,200000.0,false
+Liverpool,Eagle,144617.0,false
+Chelsea,Seal,255383.0,false
+Arsenal,Leo,200000.0,false
